@@ -1,10 +1,9 @@
 import "./Home.scss";
-import Nav from "../../components/Nav/Nav.jsx";
 
 const Home = () => {
     return (
         <div className="home">
-            <Nav/>
+            <h1>Trainee Software Developer</h1>
         </div>
 
     )

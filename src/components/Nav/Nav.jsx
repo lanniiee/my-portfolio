@@ -1,5 +1,6 @@
 import "./Nav.scss";
 import Icon from "../Icon/Icon";
+import {  NavLink } from "react-router-dom";
 
 const Nav = () => {
     
@@ -7,9 +8,18 @@ const Nav = () => {
         <div className="nav">
             <Icon/>
             <div className="nav__links">
-                <a className="nav__links--home" href="/">Home</a>
-                <a className="nav__links--aboutme"href="/">About Me</a>
-                <a className="nav__links--projects" href="/">Projects</a>
+
+                <NavLink to={"/"}className="nav__links--home" >
+                <h4>Home</h4>
+                </NavLink>
+
+                <NavLink to={"/aboutme"} className="nav__links--aboutme">
+                <h4>About Me</h4>
+                </NavLink>
+
+                <NavLink to={"/projects"} className="nav__links--projects">
+                <h4>Projects</h4>
+                </NavLink>
             </div>
             <hr className="nav__divider"/>
 
