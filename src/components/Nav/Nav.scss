@@ -1,3 +1,6 @@
+@use "../../styles/typography.scss" as *;
+@use "../../styles/variables" as *;
+
 .nav {
     display: flex;
     flex-direction: column;
@@ -20,6 +23,7 @@
             text-decoration: none;
             font-size: 1rem;
             color: black;
+            font-family: $font-link;
         }
     }
     &__divider {
