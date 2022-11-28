@@ -6,11 +6,15 @@ import Nav from './components/Nav/Nav';
 import Projects from './pages/Projects/Projects.jsx';
 import Experiences from './pages/Experiences/Experiences.jsx';
 import Skills from './pages/Skills/Skills.jsx';
+import WaterMark from './components/WaterMark/WaterMark';
 
 function App() {
   return (
     <div>
-      <Nav/>
+      <div>
+        <Nav/>
+        <WaterMark/>
+      </div>
       <Routes>
         <Route path="*" element={<Home/>} />
         <Route path="/aboutme" element={<AboutMe/>} />

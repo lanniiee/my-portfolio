@@ -28,7 +28,7 @@
     }
     &__divider {
         width: 80vw;
-        border-top: 3px solid rgba(128, 128, 128, 0.44);
-        border-radius: 50%;
+        border-top: 3px solid $color-watermark;
+        border-radius: 20%;
     }
 }

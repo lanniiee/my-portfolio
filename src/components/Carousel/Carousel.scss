@@ -1,0 +1,28 @@
+@use "../../styles/typography.scss" as *;
+@use "../../styles/variables" as *;
+
+.carousel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $color-watermark;
+    border-radius: 1rem;
+    width: 70vw;
+    height: 50vh;
+
+    &image {
+        box-shadow: 0px 10px 20px $color-main;
+        display: block;
+        width: 80%;
+        border-radius: 15px;
+    }
+
+    &__arrow {
+        display: block;
+        height: 2rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

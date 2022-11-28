@@ -1,11 +1,23 @@
 @use "../../styles/typography.scss" as *;
 @use "../../styles/variables" as *;
 
+* {
+    color: $color-main;
+}
+
 .aboutme {
     padding: 12rem 2rem 2rem 2rem;
     font-family: $font-heading;
 
     &__heading {
+        margin-bottom: 2rem;
         margin-left: 10vw;
     }
+
+    &__carousel-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

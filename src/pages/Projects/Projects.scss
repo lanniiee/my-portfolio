@@ -1,6 +1,11 @@
 @use "../../styles/typography.scss" as *;
 @use "../../styles/variables" as *;
 
+
+* {
+    color: $color-main;
+}
+
 .projects {
     padding: 12rem 2rem 2rem 2rem;
     font-family: $font-heading;

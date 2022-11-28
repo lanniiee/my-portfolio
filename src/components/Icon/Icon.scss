@@ -1,3 +1,6 @@
+@use "../../styles/typography.scss" as *;
+@use "../../styles/variables" as *;
+
 .icon {
     
     animation: icon 2s ease-in-out 1;
@@ -6,7 +9,7 @@
         width: 7rem;
         height: 7rem;
         border-radius: 50%;
-        border: 3px solid rgba(128, 128, 128, 0.44);
+        border: 3px solid $color-secondary;
     }
 
     @keyframes icon {
