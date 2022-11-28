@@ -12,12 +12,31 @@
     &__heading {
         margin-bottom: 2rem;
         margin-left: 10vw;
+        animation: aboutme 2s ease-in-out 1;
     }
 
     &__carousel-container {
         display: flex;
         justify-content: center;
         align-items: center;
+        animation: carousel 4s ease-in-out 1;
     }
 
+    @keyframes aboutme {
+        from {
+            margin-left: 0;
+        }
+        to {
+            margin-left: 10vw;
+        }
+    }
+
+    @keyframes carousel {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 100;
+        }
+    }
 }

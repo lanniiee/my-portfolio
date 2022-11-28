@@ -27,7 +27,7 @@ const Carousel = ({imgArr}) => {
     return (
         <div className="carousel">
             <img 
-                className="carousel__arrow" 
+                className="carousel__arrow carousel__arrow--left" 
                 src={leftArrow} 
                 alt="left arrow"
                 onClick={handleDecrement}/>
@@ -36,7 +36,7 @@ const Carousel = ({imgArr}) => {
                 src="" 
                 alt="my picture"/>
             <img 
-                className="carousel__arrow" 
+                className="carousel__arrow carousel__arrow--right" 
                 src={rightArrow} 
                 alt="right arrow"
                 onClick={handleIncrement}/>

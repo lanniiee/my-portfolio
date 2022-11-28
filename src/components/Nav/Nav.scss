@@ -24,11 +24,21 @@
             font-size: 1rem;
             color: black;
             font-family: $font-link;
+            height: 2.1rem;
+            &:hover {
+                border-bottom: 4px solid $color-main;
+                margin-bottom: -4px;
+                border-radius: 1px;
+            }
         }
+
     }
     &__divider {
+        position: fixed;
+        top: 11rem;
         width: 80vw;
-        border-top: 3px solid $color-watermark;
-        border-radius: 20%;
+        border: 2px solid $color-third;
+        border-radius: 5px;
+        z-index: -1;
     }
 }
