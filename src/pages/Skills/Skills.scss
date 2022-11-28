@@ -4,4 +4,8 @@
 .skills {
     padding: 12rem 2rem 2rem 2rem;
     font-family: $font-heading;
+
+    &__heading {
+        padding-left: 10vw;
+    }
 }

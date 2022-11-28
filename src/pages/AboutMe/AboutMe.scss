@@ -4,4 +4,8 @@
 .aboutme {
     padding: 12rem 2rem 2rem 2rem;
     font-family: $font-heading;
+
+    &__heading {
+        margin-left: 10vw;
+    }
 }
