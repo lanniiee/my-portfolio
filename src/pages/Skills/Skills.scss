@@ -11,6 +11,16 @@
     font-family: $font-heading;
 
     &__heading {
-        padding-left: 10vw;
+        margin-left: 10vw;
+        animation: heading 2s ease-in-out 1;
+    }
+
+    @keyframes heading {
+        from {
+            margin-left: 0;
+        }
+        to {
+            margin-left: 10vw;
+        }
     }
 }
