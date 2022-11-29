@@ -3,38 +3,31 @@
 
 
 .aboutme {
-    padding: 14rem 2rem 2rem 2rem;
+    margin: 14rem 2rem 2rem 2rem;
     font-family: $font-heading;
+    animation: aboutme 1s ease-in-out 1;
 
     &__heading {
         margin-bottom: 2rem;
         margin-left: 10vw;
-        animation: heading 2s ease-in-out 1;
+
+        color: $color-main;
+    }
+    &__info {
+        margin: 0 10vw;
+        padding: 1rem;
+        background: $color-shadow;
+        border-radius: 5px;
         color: $color-main;
     }
 
-    &__carousel-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        animation: carousel 4s ease-in-out 1;
-    }
-
-    @keyframes heading {
+    @keyframes aboutme {
         from {
-            margin-left: 0;
-        }
-        to {
-            margin-left: 10vw;
-        }
-    }
-
-    @keyframes carousel {
-        0% {
             opacity: 0;
         }
-        100% {
-            opacity: 100;
+        to {
+            opacity: 1;
         }
     }
+
 }

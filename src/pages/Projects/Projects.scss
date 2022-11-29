@@ -13,6 +13,12 @@
         animation: heading 2s ease-in-out 1;
         color: $color-main;
     }
+    &__carousel-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: carousel 4s ease-in-out 1;
+    }
 
     @keyframes heading {
         from {
@@ -20,6 +26,15 @@
         }
         to {
             margin-left: 10vw;
+        }
+    }
+
+    @keyframes carousel {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 100;
         }
     }
 }

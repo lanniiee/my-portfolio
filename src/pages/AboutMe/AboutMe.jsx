@@ -5,10 +5,7 @@ const AboutMe = () => {
     return (
         <div className="aboutme">
             <h1 className="aboutme__heading">About Me</h1>
-            <div className="aboutme__carousel-container">
-                <Carousel imgArr={""}/>
-            </div>
-
+            <p className="aboutme__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores natus rem eius necessitatibus, soluta quae laboriosam amet possimus nisi?</p>
         </div>
 
     )

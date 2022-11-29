@@ -5,18 +5,18 @@
 .skills {
     padding: 14rem 2rem 2rem 2rem;
     font-family: $font-heading;
+    animation: skills 1s ease-in-out 1;
     &__heading {
         margin-left: 10vw;
-        animation: heading 2s ease-in-out 1;
         color: $color-main;
     }
 
-    @keyframes heading {
+    @keyframes skills {
         from {
-            margin-left: 0;
+            opacity: 0;
         }
         to {
-            margin-left: 10vw;
+            opacity: 1;
         }
     }
 }
