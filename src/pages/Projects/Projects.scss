@@ -2,17 +2,16 @@
 @use "../../styles/variables" as *;
 
 
-* {
-    color: $color-main;
-}
+
 
 .projects {
-    padding: 12rem 2rem 2rem 2rem;
+    padding: 14rem 2rem 2rem 2rem;
     font-family: $font-heading;
 
     &__heading {
         margin-left: 10vw;
         animation: heading 2s ease-in-out 1;
+        color: $color-main;
     }
 
     @keyframes heading {

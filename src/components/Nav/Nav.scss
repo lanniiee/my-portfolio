@@ -5,16 +5,13 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 10rem;
+    height: 12rem;
     position: fixed;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
-    &__menu {
-        width: 2rem;
-        height: 2rem;
-    }
     &__links {
+        padding-top: 2rem;
         display: flex;
         width: 70vw;
         justify-content: space-between;
@@ -22,20 +19,20 @@
         &--home, &--aboutme, &--projects, &--experiences, &--skills {
             text-decoration: none;
             font-size: 1rem;
-            color: black;
             font-family: $font-link;
             height: 2.1rem;
+            color: $color-main;
             &:hover {
-                border-bottom: 4px solid $color-main;
+                border-bottom: 4px solid $color-secondary;
                 margin-bottom: -4px;
                 border-radius: 1px;
+                color: $color-secondary;
             }
         }
 
     }
     &__divider {
-        position: fixed;
-        top: 11rem;
+        top: 13rem;
         width: 80vw;
         border: 2px solid $color-third;
         border-radius: 5px;

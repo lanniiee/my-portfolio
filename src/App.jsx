@@ -10,7 +10,7 @@ import WaterMark from './components/WaterMark/WaterMark';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <div>
         <Nav/>
         <WaterMark/>

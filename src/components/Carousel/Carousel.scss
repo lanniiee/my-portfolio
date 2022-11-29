@@ -5,15 +5,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: $color-watermark;
     border-radius: 1rem;
-    width: 70vw;
+    width: 80vw;
     height: 50vh;
 
     &image {
         box-shadow: 0px 10px 20px $color-main;
         display: block;
-        width: 80%;
+        width: 70%;
         border-radius: 15px;
     }
 
