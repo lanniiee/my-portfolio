@@ -3,23 +3,22 @@
 
 
 .aboutme {
-    margin: 14rem 2rem 2rem 2rem;
+    margin: 14rem 2rem 0 2rem;
     font-family: $font-heading;
     animation: aboutme 1s ease-in-out 1;
 
     &__heading {
-        margin-bottom: 2rem;
+        margin-bottom: 0.5rem;
         margin-left: 10vw;
-
         color: $color-main;
     }
     &__info {
         margin: 0 10vw;
-        padding: 1rem;
+        padding: 0.5rem;
         background: $color-shadow;
         border-radius: 5px;
         color: $color-main;
-        margin: 1.5rem 10vw;
+        margin: 0.5rem 10vw;
     }
 
     @keyframes aboutme {
@@ -31,11 +30,6 @@
         }
     }
 
-    .main-blue {
-        color: $color-secondary;
-        font-weight: 500;
-        font-size: 1rem;
-    }
 
     h3 {
         padding-bottom: 0.5rem;
@@ -44,4 +38,20 @@
         padding-bottom: 0.2rem;
     }
 
+    h5 {
+        font-size: 0.7rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+
+    .bold {
+        font-weight: 500;
+    }
+
+}
+
+.main-blue {
+    color: $color-secondary;
+    font-weight: 500;
+    font-size: 1rem;
 }
