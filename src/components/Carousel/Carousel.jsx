@@ -31,10 +31,12 @@ const Carousel = ({imgArr}) => {
                 src={leftArrow} 
                 alt="left arrow"
                 onClick={handleDecrement}/>
-            <img 
-                className="carousel__image" 
-                src="" 
-                alt="my picture"/>
+            <a href={imgArr[counter].link} target="blank">
+                <img 
+                    className="carousel__image" 
+                    src={imgArr[counter].image_url}
+                    alt={imgArr[counter].name}/>
+            </a>
             <img 
                 className="carousel__arrow carousel__arrow--right" 
                 src={rightArrow} 

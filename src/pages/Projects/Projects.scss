@@ -9,7 +9,7 @@
     font-family: $font-heading;
 
     &__heading {
-        margin-left: 10vw;
+        margin: 0 0 2rem 10vw;
         animation: heading 2s ease-in-out 1;
         color: $color-main;
     }
@@ -37,4 +37,12 @@
             opacity: 100;
         }
     }
+}
+
+@media screen and (max-width: 900px) {
+
+    .projects__carousel-container {
+        height: 30vh;
+    }
+
 }
