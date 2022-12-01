@@ -2,16 +2,16 @@
 @use "../../styles/variables" as *;
 
 .nav {
+    position: sticky;
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 12rem;
-    position: fixed;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
     &__links {
-        padding-top: 2rem;
+        padding-top: 1.5rem;
         display: flex;
         width: 70vw;
         justify-content: space-between;

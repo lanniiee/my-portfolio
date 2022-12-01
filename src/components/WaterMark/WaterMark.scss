@@ -7,13 +7,11 @@
     align-items: center;
     z-index: -1;
     &__heading {
-        position: fixed;
         font-size: 1.2rem;
         background-image: linear-gradient(20deg, $color-watermark, rgba(209, 209, 209, 0.212));
         background-clip: text;
         font-family: $font-heading;
         font-weight: 700;
-        top: 8.5rem;
         -webkit-text-fill-color: transparent; 
     }
 

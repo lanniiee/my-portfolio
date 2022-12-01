@@ -1,12 +1,14 @@
 import "./Nav.scss";
 import Icon from "../Icon/Icon";
 import {  NavLink } from "react-router-dom";
+import WaterMark from '../WaterMark/WaterMark';
 
 const Nav = () => {
     
     return (
         <div className="nav">
             <Icon/>
+            <WaterMark />
             <div className="nav__links">
 
                 <NavLink to={"/"}className="nav__links--home" >
