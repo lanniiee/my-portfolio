@@ -26,6 +26,7 @@ const AboutMe = () => {
                 <h6>2018 – 2019 </h6>
                 <p><span className="main-blue">+</span> Postgraduate Certificate in Education – Secondary (Non-QTS) | Goldsmiths</p>
                 <h5></h5>
+                
                 <h6>2015 – 2018 </h6>
                 <p><span className="main-blue">+</span> Economics Bsc (2.1) | University of Kent (Canterbury)</p>
                 <h5><span className="bold">Modules including</span>: Econometrics, Finance, Games Theory, Industrial Economics, Economic Growth, Mathematics, 
@@ -34,6 +35,7 @@ Statistics, Micro and Macroeconomics, Strategy and Games, Data Analysis, Econome
                 <h6>2013 - 2015</h6>
                 <p><span className="main-blue">+</span> A Levels | City and Islington College (Angel)</p>
                 <h5>Mathematics  (B), Photography (B), Economics (C), AS History</h5>
+
                 <h6>2008 - 2013</h6>
                 <p><span className="main-blue">+</span> GCSE | Bacon’s College (London)</p>
                 <h5>11 GCSEs including Mathematics (A), English Literature (A) and English Language (B)</h5>
