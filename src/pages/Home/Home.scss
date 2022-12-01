@@ -7,8 +7,7 @@
     font-family: $font-heading;
     &__heading {
         height: 10rem;
-        margin: 3rem 0;
-
+        margin: 1rem 0;
         &--trainee {
             position: relative;
             animation-name: trainee;
@@ -37,6 +36,12 @@
             margin-left: 35vw;
             font-size: 2.5rem;
             color: $color-grey-lighter;
+        }
+
+        &--project {
+            margin-left: 10vw;
+            padding: 2rem 0;
+            color: $color-main;
         }
     
         @keyframes trainee {
@@ -87,4 +92,24 @@
             color: $color-main;
         }
     }
+
+    &__carousel-container {
+        animation: carousel 4s ease-in-out 1;
+        &--heading {
+            color: $color-main;
+            padding: 2rem 0 0 0;
+            text-align: center;
+        }
+    }
+
+
+    @keyframes carousel {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 100;
+        }
+    }
+
 }
