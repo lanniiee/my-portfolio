@@ -3,21 +3,22 @@ import {experiences} from "../../data/experiences";
 
 const Experiences = () => {
 
+
     const myEducations = experiences.map(element => {
+
+        const parag = element.line.map(line => {
+            return (
+                <p>
+                    <span className="main-blue">+</span> {line}
+                </p>
+            )
+        })
+
         return (
                     <div className="experiences__info">
                 <h6>{element.date}</h6>
                 <h3 className="experiences__job">{element.title}</h3>
-                <p>
-                    <span className="main-blue">+</span> {element.line1}
-                </p>
-                <p>
-                <span className="main-blue">+</span> {element.line2}
-                </p>
-                <span className="main-blue">+</span> {element.line3}
-                <p>
-                <span className="main-blue">+</span> {element.line4}
-                </p>
+                {parag}
             </div>
         )
     })
