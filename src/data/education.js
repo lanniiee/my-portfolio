@@ -2,6 +2,7 @@ export const education = [
     {
         date: "2018 – 2019",
         title: "Postgraduate Certificate in Education – Secondary (Non-QTS) | Goldsmiths",
+        line: ""
     },
 
     {
