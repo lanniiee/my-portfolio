@@ -18,7 +18,7 @@ const Home = ({imgArr}) => {
             </div>
 
             <div className="home__carousel-container">
-                <h1 className="home__carousel-container--heading">Projects</h1>
+                <h1 className="home__carousel-container--heading">My Projects</h1>
                 <div className="home__carousel">
                     <Carousel imgArr={imgArr}/>
                 </div>
