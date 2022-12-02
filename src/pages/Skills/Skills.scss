@@ -11,6 +11,34 @@
         color: $color-main;
     }
 
+    &__languages {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 10vw;
+
+        &--heading {
+            color: $color-main;
+            font-size: 1rem;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        &--image {
+            width: 3rem;
+        }
+    }
+
+    &__language {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 5rem;
+        width: 5rem;
+        margin: 2rem 1rem;
+    }
+
     @keyframes skills {
         from {
             opacity: 0;

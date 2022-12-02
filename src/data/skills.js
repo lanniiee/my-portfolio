@@ -21,7 +21,7 @@ export const skillIcons = [
     
     {
         name: "BEM",
-        image_url: require("../assets/images/bem.svg")
+        image_url: require("../assets/images/bem.png")
     },
 
     {
@@ -36,8 +36,14 @@ export const skillIcons = [
 
     {
         name: "Spring Boot",
-        image_url: require("../assets/images/springboot.svg")
+        image_url: require("../assets/images/springboot.png")
     },
+
+    {
+        name: "SQL",
+        image_url: require("../assets/images/sql-server.png")
+    },
+
 
 ]
 
