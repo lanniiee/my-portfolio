@@ -5,6 +5,7 @@
 .home {
     margin: 1rem 2rem 2rem 2rem;
     font-family: $font-heading;
+
     &__heading {
         height: 10rem;
         margin: 1rem 0;
@@ -95,6 +96,10 @@
 
     &__carousel-container {
         animation: carousel 4s ease-in-out 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         &--heading {
             color: $color-main;
             padding: 2rem 0 0 0;
