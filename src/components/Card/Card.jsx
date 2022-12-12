@@ -13,7 +13,7 @@ const Card = ({project}) => {
             <div className="card__builds">
                 {eachbuilt}
             </div>
-            <img className="card__image" src={project.image_url} alt={""} />
+            <a href={project.link} target="blank"><img className="card__image" src={project.image_url} alt={""} /></a>
         </div>
     )
 }
