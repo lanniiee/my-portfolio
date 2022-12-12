@@ -2,12 +2,14 @@
 @use "../../styles/variables" as *;
 
 
-
-
 .projects {
     padding: 1rem 2rem 2rem 2rem;
     font-family: $font-heading;
-
+    &__info {
+        margin: -2rem 2rem 0rem 11vw;
+        color: $color-grey-light;
+        font-size: 0.8rem;
+    }
     &__heading {
         margin: 0 0 2rem 10vw;
         animation: heading 2s ease-in-out 1;
