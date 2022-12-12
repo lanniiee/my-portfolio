@@ -7,7 +7,9 @@ const Nav = () => {
     
     return (
         <div className="nav">
+            <NavLink to={"/"}>
                 <Icon/>
+            </NavLink>
             <WaterMark />
             <div className="nav__links">
 
