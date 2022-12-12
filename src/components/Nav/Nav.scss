@@ -22,12 +22,6 @@
             font-family: $font-link;
             height: 2.1rem;
             color: $color-main;
-            &:hover {
-                border-bottom: 4px solid $color-secondary;
-                margin-bottom: -4px;
-                border-radius: 1px;
-                color: $color-secondary;
-            }
         }
 
     }
@@ -38,4 +32,11 @@
         border-radius: 5px;
         z-index: -1;
     }
+}
+
+.active {
+    border-bottom: 4px solid $color-secondary;
+    margin-bottom: -4px;
+    border-radius: 1px;
+    color: $color-secondary;
 }
