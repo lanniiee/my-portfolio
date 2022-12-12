@@ -18,6 +18,8 @@ const AboutMe = () => {
         </div>)
 
     const myEducation = education.map(element => {
+
+        
         return (
             <>
                 <h6>{element.date}</h6>

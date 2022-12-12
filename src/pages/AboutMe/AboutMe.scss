@@ -3,7 +3,7 @@
 
 
 .aboutme {
-    margin: 1rem 2rem 0 2rem;
+    margin: 2rem 2rem 0 2rem;
     font-family: $font-heading;
     animation: aboutme 1s ease-in-out 1;
 
@@ -13,7 +13,6 @@
         color: $color-main;
     }
     &__info {
-        margin: 0 10vw;
         padding: 0.5rem;
         background: $color-shadow;
         border-radius: 5px;
@@ -54,4 +53,72 @@
     color: $color-secondary;
     font-weight: 500;
     font-size: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+
+    .aboutme {
+        margin: 1rem 2rem 0 2rem;
+        font-family: $font-heading;
+        animation: aboutme 1s ease-in-out 1;
+    
+        &__heading {
+            margin-bottom: 0.5rem;
+            margin-left: 10vw;
+            color: $color-main;
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        &__info {
+            padding: 0.5rem;
+            background: $color-shadow;
+            border-radius: 5px;
+            color: $color-main;
+            margin: 0.5rem 10vw;
+        }
+    
+        @keyframes aboutme {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    
+    
+        h3 {
+            padding-bottom: 0.5rem;
+            text-decoration: underline;
+            text-decoration-thickness: 0.5px;
+            text-decoration-color: $color-secondary;
+            font-size: 1rem;
+        }
+        p {
+            padding-bottom: 0.2rem;
+            font-size: 0.8rem;
+        }
+    
+        h5 {
+            font-size: 0.7rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+    
+        .bold {
+            font-weight: 500;
+        }
+
+        h6 {
+            font-size: 0.6rem;
+        }
+    
+    }
+    
+    .main-blue {
+        color: $color-secondary;
+        font-weight: 500;
+        font-size: 0.6rem;
+    }
+
 }

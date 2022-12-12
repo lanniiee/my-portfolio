@@ -32,3 +32,38 @@
         height: 11rem;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .card {
+        width: 16rem;
+        height: 12rem;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+        margin: 0.5rem;
+    
+        &__name {
+            font-size: 1rem;
+            height: 1.5rem;
+            color: $color-secondary;
+        }
+        &__builds {
+            height: 2.5rem;
+            display: flex;
+            align-items: center;
+            margin: 0;
+            &--built {
+                display: inline;
+                font-size: 0.5rem;
+                color: $color-main;
+                border: 1px solid $color-main;
+                margin: 0.2rem 0.2rem 0.2rem 0;
+                padding: 0.2rem;
+            }
+        }
+        &__image {
+            width: 16rem;
+            height: 9rem;
+        }
+    }
+}

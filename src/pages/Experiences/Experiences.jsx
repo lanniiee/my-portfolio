@@ -15,7 +15,7 @@ const Experiences = () => {
         })
 
         return (
-                    <div className="experiences__info">
+            <div className="experiences__info">
                 <h6>{element.date}</h6>
                 <h3 className="experiences__job">{element.title}</h3>
                 {parag}

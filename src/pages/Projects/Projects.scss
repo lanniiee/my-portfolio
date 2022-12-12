@@ -25,6 +25,32 @@
         }
     }
 
-
 }
 
+@media screen and (max-width: 900px) {
+    .projects {
+        padding: 1rem 2rem 2rem 2rem;
+        font-family: $font-heading;
+        &__info {
+            margin: -2rem 2rem 0rem 10vw;
+            color: $color-grey-light;
+            font-size: 0.8rem;
+        }
+        &__heading {
+            margin: 1rem 0 2rem 10vw;
+            animation: heading 2s ease-in-out 1;
+            color: $color-main;
+            font-size: 1.5rem;
+        }
+    
+        @keyframes heading {
+            from {
+                margin-left: 0;
+            }
+            to {
+                margin-left: 10vw;
+            }
+        }
+    
+    }
+}

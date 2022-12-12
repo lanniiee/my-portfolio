@@ -31,3 +31,44 @@
 h6 {
     color: $color-secondary;
 }
+
+@media screen and (max-width: 900px) {
+
+    .experiences {
+        padding: 1rem 2rem 0rem 2rem;
+        font-family: $font-heading;
+        animation: experiences 1s ease-in-out 1;
+        &__heading {
+            margin-left: 10vw;
+            margin-top: 0.5rem;
+            color: $color-main;
+            font-size: 1.5rem;
+        }
+        &__info {
+            padding: 1rem;
+            background: $color-shadow;
+            border-radius: 5px;
+            color: $color-main;
+            margin: 1rem 10vw;
+            font-size: 0.8rem;
+        }
+        &__job {
+            font-size: 0.8rem;
+        }
+    
+        @keyframes experiences {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    }
+    
+    h6 {
+        color: $color-secondary;
+        font-size: 0.6rem;
+    }
+
+}

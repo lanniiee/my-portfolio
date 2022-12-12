@@ -21,3 +21,24 @@
         }
     }
 }
+
+@media screen and (max-width: 900px) {
+    .icon {
+        animation: icon 2s ease-in-out 1;
+        &__image {
+            width: 5rem;
+            height: 5rem;
+            border-radius: 50%;
+            border: 3px solid $color-secondary;
+        }
+    
+        @keyframes icon {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 100;
+            }
+        }
+    }
+}
