@@ -1,0 +1,34 @@
+@use "../../styles/typography.scss" as *;
+@use "../../styles/variables" as *;
+
+.card {
+    width: 20rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    margin: 0.5rem;
+
+    &__name {
+        font-size: 1.2rem;
+        height: 1.5rem;
+        color: $color-secondary;
+    }
+    &__builds {
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        &--built {
+            display: inline;
+            font-size: 0.7rem;
+            color: $color-main;
+            border: 1px solid $color-main;
+            margin: 0.2rem;
+            padding: 0.2rem;
+        }
+    }
+    &__image {
+        width: 20rem;
+        height: 11rem;
+    }
+}
