@@ -16,24 +16,24 @@ const Nav = () => {
                 <h4>Home</h4>
                 </NavLink>
 
-                <NavLink to={"/aboutme"} className={({isActive}) => 
+                <NavLink to={"/my-portfolio/aboutme"} className={({isActive}) => 
                     isActive ? "nav__links--aboutme-active" : "nav__links--aboutme"}>
                 <h4>About Me</h4>
                 </NavLink>
 
-                <NavLink to={"/projects"} className={({isActive}) => 
+                <NavLink to={"/my-portfolio/projects"} className={({isActive}) => 
                     isActive ? "nav__links--projects-active" : "nav__links--projects"}>
                 <h4>Projects</h4>
                 </NavLink>
 
 
-                <NavLink to={"/skills"} className={({isActive}) => 
+                <NavLink to={"/my-portfolio/skills"} className={({isActive}) => 
                     isActive ? "nav__links--skills-active" : "nav__links--skills"}>
                 <h4>Skills</h4>
                 </NavLink>
 
 
-                <NavLink to={"/experiences"} className={({isActive}) => 
+                <NavLink to={"/my-portfolio/experiences"} className={({isActive}) => 
                     isActive ? "nav__links--experiences-active" : "nav__links--experiences"}>
                 <h4>Experiences</h4>
                 </NavLink>
