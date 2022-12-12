@@ -214,6 +214,10 @@
     
         &__carousel-container {
             animation: carousel 4s ease-in-out 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             &--heading {
                 color: $color-main;
                 padding: 2rem 0 -1rem 0;
