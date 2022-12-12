@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.3f1476c5.css",
+    "main.js": "/my-portfolio/static/js/main.720333e0.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/trivia.png": "/my-portfolio/static/media/trivia.200f82150251b9fde76d.png",
+    "static/media/ticket-tracker.png": "/my-portfolio/static/media/ticket-tracker.6704149de722b9fb9f38.png",
+    "static/media/calculatorimage.png": "/my-portfolio/static/media/calculatorimage.d38a897dadf37c5f0b51.png",
+    "static/media/profile.png": "/my-portfolio/static/media/profile.ae8841145cc0fccc71d0.png",
+    "static/media/travel-guide.png": "/my-portfolio/static/media/travel-guide.cbb9d409366fb33f9f1c.png",
+    "static/media/punk-api.png": "/my-portfolio/static/media/punk-api.fe555a230226e28b16f4.png",
+    "static/media/snap.png": "/my-portfolio/static/media/snap.1ae233c5a9841e5c87cb.png",
+    "static/media/hangman.png": "/my-portfolio/static/media/hangman.76acaedb0eb8b8dae46d.png",
+    "static/media/client-project.png": "/my-portfolio/static/media/client-project.bf98a862d4c7a15f1f43.png",
+    "static/media/Morse-code.png": "/my-portfolio/static/media/Morse-code.eff63d5cc81ccaf7bb62.png",
+    "static/media/react.png": "/my-portfolio/static/media/react.925d741b552d82651792.png",
+    "static/media/sass.png": "/my-portfolio/static/media/sass.a3753b56ba6754923f5e.png",
+    "static/media/java-logo.png": "/my-portfolio/static/media/java-logo.0310918869e77a0bb6ee.png",
+    "static/media/sql-server.png": "/my-portfolio/static/media/sql-server.a06e3f8efee85658d942.png",
+    "static/media/git.png": "/my-portfolio/static/media/git.f42c281148fe73aad637.png",
+    "static/media/html.png": "/my-portfolio/static/media/html.51805b3387f2e7e679c5.png",
+    "static/media/right-arrow.png": "/my-portfolio/static/media/right-arrow.f356bf3c05b896880fd6.png",
+    "static/media/left-arrow.png": "/my-portfolio/static/media/left-arrow.b5bcf6f1ba147e958bce.png",
+    "static/media/java-script.png": "/my-portfolio/static/media/java-script.afea877feeb60f3402b1.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.3f1476c5.css.map": "/my-portfolio/static/css/main.3f1476c5.css.map",
+    "main.720333e0.js.map": "/my-portfolio/static/js/main.720333e0.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f1476c5.css",
+    "static/js/main.720333e0.js"
+  ]
+}
