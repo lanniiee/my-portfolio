@@ -19,10 +19,10 @@ function App() {
       </div>
       <Routes>
         <Route path="*" element={<Home imgArr={projectArr} />} />
-        <Route path="/my-portfolio/aboutme" element={<AboutMe/>} />
-        <Route path="/my-portfolio/projects" element={<Projects projectArr={projectArr} />} />
-        <Route path="/my-portfolio/experiences" element={<Experiences/>} />
-        <Route path="/my-portfolio/skills" element={<Skills/>} />
+        <Route path="/aboutme" element={<AboutMe/>} />
+        <Route path="/projects" element={<Projects projectArr={projectArr} />} />
+        <Route path="/experiences" element={<Experiences/>} />
+        <Route path="/skills" element={<Skills/>} />
       </Routes>    
     </div>
   );
