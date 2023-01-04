@@ -70,6 +70,14 @@ export const projectsArr = [
         link: "https://github.com/lanniiee/travel-log-front",
         built: ["HTML", "SCSS", "JS", "REACT", "Java", "Springboot", "API"]
     },
+
+    {
+        id: 10,
+        name: "Weather App",
+        image_url: require ("../assets/images/weatherapp.png"),
+        link: "https://lanniiee.github.io/Geolocation/",
+        built: ["HTML", "SCSS", "JS", "REACT", "API"]
+    },
 ];
 
 export default projectsArr;
