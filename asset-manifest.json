@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.8f58c3c1.css",
-    "main.js": "/my-portfolio/static/js/main.7da4b441.js",
+    "main.js": "/my-portfolio/static/js/main.13274940.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/trivia.png": "/my-portfolio/static/media/trivia.200f82150251b9fde76d.png",
     "static/media/ticket-tracker.png": "/my-portfolio/static/media/ticket-tracker.6704149de722b9fb9f38.png",
@@ -12,6 +12,7 @@
     "static/media/snap.png": "/my-portfolio/static/media/snap.1ae233c5a9841e5c87cb.png",
     "static/media/hangman.png": "/my-portfolio/static/media/hangman.76acaedb0eb8b8dae46d.png",
     "static/media/client-project.png": "/my-portfolio/static/media/client-project.bf98a862d4c7a15f1f43.png",
+    "static/media/weatherapp.png": "/my-portfolio/static/media/weatherapp.db695e027713a25b010f.png",
     "static/media/Morse-code.png": "/my-portfolio/static/media/Morse-code.eff63d5cc81ccaf7bb62.png",
     "static/media/react.png": "/my-portfolio/static/media/react.925d741b552d82651792.png",
     "static/media/sass.png": "/my-portfolio/static/media/sass.a3753b56ba6754923f5e.png",
@@ -24,11 +25,11 @@
     "static/media/java-script.png": "/my-portfolio/static/media/java-script.afea877feeb60f3402b1.png",
     "index.html": "/my-portfolio/index.html",
     "main.8f58c3c1.css.map": "/my-portfolio/static/css/main.8f58c3c1.css.map",
-    "main.7da4b441.js.map": "/my-portfolio/static/js/main.7da4b441.js.map",
+    "main.13274940.js.map": "/my-portfolio/static/js/main.13274940.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f58c3c1.css",
-    "static/js/main.7da4b441.js"
+    "static/js/main.13274940.js"
   ]
 }
