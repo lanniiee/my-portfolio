@@ -78,6 +78,22 @@ export const projectsArr = [
         link: "https://lanniiee.github.io/Geolocation/",
         built: ["HTML", "SCSS", "JS", "REACT", "API"]
     },
+
+    {
+        id: 11,
+        name: "Library System",
+        image_url: require ("../assets/images/library.png"),
+        link: "https://github.com/lanniiee/Library",
+        built: ["Java",  "CSV to JSON"]
+    },
+
+    {
+        id: 12,
+        name: "Parking Lot",
+        image_url: require ("../assets/images/parkinglot.png"),
+        link: "https://github.com/lanniiee/parking-lot/",
+        built: ["Java"]
+    }
 ];
 
 export default projectsArr;
