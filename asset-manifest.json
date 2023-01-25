@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.8f58c3c1.css",
-    "main.js": "/my-portfolio/static/js/main.13274940.js",
+    "main.js": "/my-portfolio/static/js/main.753c7bbb.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/trivia.png": "/my-portfolio/static/media/trivia.200f82150251b9fde76d.png",
     "static/media/ticket-tracker.png": "/my-portfolio/static/media/ticket-tracker.6704149de722b9fb9f38.png",
@@ -9,6 +9,8 @@
     "static/media/profile.png": "/my-portfolio/static/media/profile.ae8841145cc0fccc71d0.png",
     "static/media/travel-guide.png": "/my-portfolio/static/media/travel-guide.cbb9d409366fb33f9f1c.png",
     "static/media/punk-api.png": "/my-portfolio/static/media/punk-api.fe555a230226e28b16f4.png",
+    "static/media/library.png": "/my-portfolio/static/media/library.8ffef4f8cf813f1f3f02.png",
+    "static/media/parkinglot.png": "/my-portfolio/static/media/parkinglot.d8a4ec05a4dd74a3ebf0.png",
     "static/media/snap.png": "/my-portfolio/static/media/snap.1ae233c5a9841e5c87cb.png",
     "static/media/hangman.png": "/my-portfolio/static/media/hangman.76acaedb0eb8b8dae46d.png",
     "static/media/client-project.png": "/my-portfolio/static/media/client-project.bf98a862d4c7a15f1f43.png",
@@ -25,11 +27,11 @@
     "static/media/java-script.png": "/my-portfolio/static/media/java-script.afea877feeb60f3402b1.png",
     "index.html": "/my-portfolio/index.html",
     "main.8f58c3c1.css.map": "/my-portfolio/static/css/main.8f58c3c1.css.map",
-    "main.13274940.js.map": "/my-portfolio/static/js/main.13274940.js.map",
+    "main.753c7bbb.js.map": "/my-portfolio/static/js/main.753c7bbb.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f58c3c1.css",
-    "static/js/main.13274940.js"
+    "static/js/main.753c7bbb.js"
   ]
 }
