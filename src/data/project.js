@@ -43,7 +43,7 @@ export const projectsArr = [
         id: 6,
         name: "Client Project (Synergy)",
         image_url: require ("../assets/images/client-project.png"),
-        link: "https://github.com/nology-tech/quadra-client-project/tree/main/src",
+        link: "https://github.com/lanniiee/quadra-client-project",
         built: ["HTML", "SCSS", "JS", "REACT", "Firebase", "API"]
     },
 
