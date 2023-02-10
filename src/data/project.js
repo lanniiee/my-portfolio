@@ -93,6 +93,13 @@ export const projectsArr = [
         image_url: require ("../assets/images/parkinglot.png"),
         link: "https://github.com/lanniiee/parking-lot/",
         built: ["Java"]
+    },
+    {
+        id: 13,
+        name: "Tech Test (Practice)",
+        image_url: require ("../assets/images/football.png"),
+        link: "https://lanniiee.github.io/react-tech-test/",
+        built: ["HTML", "SCSS", "JS", "REACT", "API"]
     }
 ];
 
